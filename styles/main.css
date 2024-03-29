@@ -59,22 +59,34 @@ div.header-nav li {
 
 /* Start of Main */
 
-main p {
-  background-color: red;
+div.main-one {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+div.main-one h1 {
+  text-align: center;
+}
+
+div.main-one main h2 {
+  /*  background-color: green; */
+}
+
+div.main-one main p {
+  /*  background-color: orange; */
 }
 
 /* End of Main */
-
-h1 {
-  text-align: center;
-}
 
 figure {
   height: 200px;
   width: auto;
   text-align: center;
+  display: inline-block;
 }
 
 img {
-  width: 400px;
+  margin-left: 0;
+  width: 190px;
+  border-radius: 10px;
 }
