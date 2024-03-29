@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Temporary */
+
+.home-temp a {
+  color: white;
+}
+
+/* Start of Head and Nav */
+div.header-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Controls all divs in the .header-nav class (additional info - "a" tag for the anchors) */
+div.header-nav a {
+  text-decoration: none;
+}
+
+/* Anchor color */
+div.header-nav header a {
+  color: rgb(180, 180, 0);
+}
+div.header-nav ul a {
+  color: white;
+}
+
+/* Controls the header, ("bello.") */
+div.header-nav header {
+  background-color: yellow;
+  margin: 0px;
+  padding-left: 20px;
+  font-size: 45px;
+}
+
+/* Controls the nav */
+div.header-nav ul {
+  background-color: purple;
+  margin-top: 0;
+  padding: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.header-nav li {
+  background-color: rgb(100, 0, 100);
+  padding: 5px;
+  font-size: 20px;
+  list-style: none;
+  display: inline-block;
+  margin-right: 80px;
+  border-radius: 5px;
+}
+/* End of Header and Nav */
+
+/* Start of Main */
+
+main p {
+  background-color: red;
+}
+
+/* End of Main */
+
+h1 {
+  text-align: center;
+}
+
+figure {
+  height: 200px;
+  width: auto;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+}
