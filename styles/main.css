@@ -111,3 +111,8 @@ img {
     width: 50%;
   }
 }
+
+div.blog ul a {
+  font-size: 30px;
+  color: white;
+}
