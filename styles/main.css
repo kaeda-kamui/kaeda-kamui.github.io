@@ -76,10 +76,14 @@ div.main-one h1 {
 
 div.main-one main h2 {
   /*  background-color: green; */
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 div.main-one main p {
   /*  background-color: orange; */
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 /* End of Main */
@@ -92,7 +96,18 @@ figure {
 }
 
 img {
-  margin-left: 0;
+  margin-left: 5px;
   width: 190px;
   border-radius: 10px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 900px) {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
