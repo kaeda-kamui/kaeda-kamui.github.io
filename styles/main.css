@@ -55,6 +55,17 @@ div.header-nav li {
   margin-right: 80px;
   border-radius: 5px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 900px) {
+  div.header-nav ul {
+    text-align: left;
+    display: none;
+    /* Temporary ^ display:none for mobile. Change it later */
+  }
+}
+
 /* End of Header and Nav */
 
 /* Start of Main */
