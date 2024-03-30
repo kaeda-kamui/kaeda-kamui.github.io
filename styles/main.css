@@ -1,6 +1,6 @@
 body {
   background-color: rgb(50, 50, 50);
-  color: white;
+  color: rgb(200, 200, 200);
   margin: 0px;
   padding: 0px;
 }
@@ -121,4 +121,14 @@ ol.questions li {
   font-size: 25px;
   font-weight: bold;
   margin-top: 60px;
+}
+
+ol.questions span {
+  font-weight: bold;
+  background-color: darkslategray;
+}
+
+/* Temporary */
+p {
+  font-size: 20px;
 }
