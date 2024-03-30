@@ -116,3 +116,9 @@ div.blog ul a {
   font-size: 30px;
   color: white;
 }
+
+ol.questions li {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 60px;
+}
