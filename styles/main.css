@@ -112,6 +112,8 @@ img {
   }
 }
 
+/* Questions class ul and ol */
+
 div.blog ul a {
   font-size: 30px;
   color: white;
@@ -126,6 +128,12 @@ ol.questions li {
 ol.questions span {
   font-weight: bold;
   background-color: darkslategray;
+}
+
+ul.questions li {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 60px;
 }
 
 /* Temporary */
