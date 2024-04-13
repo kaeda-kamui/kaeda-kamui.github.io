@@ -136,6 +136,10 @@ ul.questions li {
   margin-top: 60px;
 }
 
+span.bold {
+  font-weight: bold;
+}
+
 /* Temporary */
 p {
   font-size: 20px;
